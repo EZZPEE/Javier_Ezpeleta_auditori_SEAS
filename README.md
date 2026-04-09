@@ -17,7 +17,9 @@ Se realiza un escaneo para detectar los servicios SSH (2222) y FTP (4321).
 
 ## 3. Servidor FTP Anónimo
 Configurado en el puerto 4321. Se accede para recuperar el archivo de flag.
-
+> **Captura de Hydra:**
+> ![FTP](ftp.png)
+> 
 ## 4. Ataque de Fuerza Bruta (Hydra)
 Se utiliza Hydra con un diccionario personalizado para obtener la contraseña del usuario.
 `hydra -l hola -P pass.txt ssh://192.168.100.20:2222`

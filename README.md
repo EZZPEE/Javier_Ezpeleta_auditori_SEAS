@@ -23,7 +23,7 @@ Se utiliza Hydra con un diccionario personalizado para obtener la contraseña de
 `hydra -l hola -P pass.txt ssh://192.168.100.20:2222`
 
 > **Captura de Hydra:**
-> ![Hydra](hidra.png)
+> ![Hydra](hydra.png)
 
 ## 5. Acceso SSH por Clave Pública
 Se generan claves con `ssh-keygen` y se transfieren con `ssh-copy-id`.
